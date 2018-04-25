@@ -14,9 +14,9 @@ class nodeChooser{
 // switch to next seris is 27/02/2017
 	public function nodeseris(){
 			$myTimeNow =(int)date('d');
-			echo($myTimeNow % 6);die;
+			//echo($myTimeNow % 6);die;
 			switch ($myTimeNow % 6) {
-				case 3:
+				case 4:
 					$this->nodes = array(
 						"http://gsnd0001-tavrij01.rhcloud.com/",
 						"http://gsnd0002-tavrij01.rhcloud.com/",
@@ -27,7 +27,7 @@ class nodeChooser{
 						"https://gsnd005.herokuapp.com/"
 					);
 					break;
-				case 4:
+				case 5:
 					$this->nodes = array(
 						"http://gsnd0001-tavrij01.rhcloud.com/",
 						"http://gsnd0002-tavrij01.rhcloud.com/",
@@ -37,7 +37,7 @@ class nodeChooser{
 						"https://gsnd009.herokuapp.com/",
 						"https://gsnd010.herokuapp.com/"
 					);					break;
-				case 5:
+				case 0:
 					$this->nodes = array(
 						"http://gsnd0001-tavrij01.rhcloud.com/",
 						"http://gsnd0002-tavrij01.rhcloud.com/",
@@ -47,7 +47,7 @@ class nodeChooser{
 						"https://gsnd014.herokuapp.com/",
 						"https://gsnd015.herokuapp.com/"
 					);					break;
-				case 0:
+				case 1:
 					$this->nodes = array(
 						"http://gsnd0001-tavrij01.rhcloud.com/",
 						"http://gsnd0002-tavrij01.rhcloud.com/",
@@ -57,7 +57,7 @@ class nodeChooser{
 						"https://gsnd019.herokuapp.com/",
 						"https://gsnd020.herokuapp.com/"
 					);					break;
-				case 1:
+				case 2:
 					$this->nodes = array(
 						"http://gsnd0001-tavrij01.rhcloud.com/",
 						"http://gsnd0002-tavrij01.rhcloud.com/",
@@ -67,7 +67,7 @@ class nodeChooser{
 						"https://gsnd024.herokuapp.com/",
 						"https://gsnd025.herokuapp.com/"
 					);					break;
-				case 2:
+				case 3:
 					$this->nodes = array(
 						"http://gsnd0001-tavrij01.rhcloud.com/",
 						"http://gsnd0002-tavrij01.rhcloud.com/",
