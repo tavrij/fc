@@ -53,8 +53,8 @@ public function request(){
 		}
 	}
 	public function my_file_get_contents($url,$xpathTxt,$uyesno){
-		//$url = 'http://www.zoomit.ir/2017/7/9/188851/solar-eclipse-proved-einstein-right/';
-		//$xpathTxt = '//*[@id="ArticleDetails"]/div/div[2]/div[5]/*';
+		$url = 'http://www.zoomit.ir/2017/7/9/188851/solar-eclipse-proved-einstein-right/';
+		$xpathTxt = '//*[@id="ArticleDetails"]/div/div[2]/div[5]/*';
 		
 		$strexport = "<div><p>";
 		$source = file_get_contents($url);

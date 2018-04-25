@@ -14,7 +14,7 @@ class nodeChooser{
 // switch to next seris is 27/02/2017
 	public function nodeseris(){
 			$myTimeNow =(int)date('d');
-			//echo($myTimeNow % 6);die;
+			echo($myTimeNow % 6);die;
 			switch ($myTimeNow % 6) {
 				case 3:
 					$this->nodes = array(
