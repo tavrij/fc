@@ -4,7 +4,7 @@
 //$chat_id = 101083185;
 // path to the picture, 
 
-$token = "414115110:AAFvOsCYIfZ47EyVzjrcIVCaFX5mrg4-ZlU";
+$token = "...";
 
 $data = [
     'text' => 'your message here',
